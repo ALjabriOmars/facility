@@ -7,7 +7,7 @@ model = joblib.load("best_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.set_page_config(page_title="Facility Cost Estimator", layout="centered")
-st.title("🏭 Facility Assignment Cost Estimator")
+st.title(" Facility  Cost Estimator 🏭")
 st.markdown("Estimate the **total cost** (in OMR) for assigning a facility to a location.")
 
 # User inputs
